@@ -16,15 +16,15 @@ Fonts are separated by a & */
   --paragraph-font: Roboto;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
+  --headline-color-on-white: #6aaeff;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #6aaeff; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #7b8f1b  ;
   --nav-link-color: black;
-  --nav-background-color: #D4AC0D;
+  --nav-background-color: #e16e66;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --nav-hover-background-color: #7b8f1b;
 }
 
 
