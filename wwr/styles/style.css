@@ -1,12 +1,18 @@
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a & */
+@import url('https://fonts.googleapis.com/css2?family=Mogra&family=PT+Serif&family=Roboto+Condensed:wght@300&family=Roboto:wght@100&family=Shantell+Sans:wght@300&display=swap');
+
 #content {
         max-width: 1600px;
-    margin: 0 auto;    
+        margin: 0 auto;    
 }
 
 nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -27,6 +33,11 @@ main section {
 
 body {
     background-color: #7b8f1b;
+    font-family: 'Shantell Sans', 'Mogra', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+
 }
 
 header {
@@ -42,6 +53,10 @@ nav a:hover {
     background-color: #6aaeff;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -55,11 +70,15 @@ nav a:hover {
 
 .msg {
     background-color: white;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: #e16e66;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -73,6 +92,7 @@ footer a:hover {
 
 footer p {
     font-size: 1.2em;
+    
 }
 
 footer p a:hover {
@@ -81,6 +101,14 @@ footer p a:hover {
 
 .home-title {
     color: black;
+    font-family: 'Roboto', 'Roboto Condensed', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+
+}
+
+h2 {
+    margin: 0;
 }
 
 h4 {
@@ -93,6 +121,8 @@ h4 {
 
 .msg p {
     color: black;
+    font-size: .8em ;
+    padding-bottom: 15px;
 }
 
 .logo {
@@ -101,8 +131,34 @@ h4 {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
     width: 100%;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.mountains {
+    margin-top: 90px;
+    margin-bottom: 180px;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
+main section img {
+    box-sizing: border-box;
 }
