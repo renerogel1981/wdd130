@@ -77,7 +77,7 @@ body {
 header {
     background-color: #e16e66;
     display: grid;
-    grid-template-columns: 150 auto;
+    grid-template-columns: 150px auto;
 }
 
 nav a:hover {
